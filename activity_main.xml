@@ -1,0 +1,395 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    >
+
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:width="70dp"
+                android:height="20dp"
+                android:text=""
+                android:id="@+id/topLeftCorner" />
+
+            <TextView
+                android:width="50dp"
+                android:height="20dp"
+                android:text="0"
+                android:gravity="center"
+                android:id="@+id/Col1Label" />
+
+            <TextView
+                android:width="50dp"
+                android:height="20dp"
+                android:text="1/4"
+                android:gravity="center"
+                android:id="@+id/Col2Label" />
+
+            <TextView
+            android:width="50dp"
+            android:height="20dp"
+            android:text="1/2"
+            android:gravity="center"
+            android:id="@+id/Col3Label" />
+
+            <TextView
+                android:width="50dp"
+                android:height="20dp"
+                android:text="1"
+                android:gravity="center"
+                android:id="@+id/Col4Label" />
+
+            <TextView
+                android:width="50dp"
+                android:height="20dp"
+                android:text="2"
+                android:gravity="center"
+                android:id="@+id/Col5Label" />
+
+            <TextView
+                android:width="40dp"
+                android:height="20dp"
+                android:text="4"
+                android:gravity="center"
+                android:id="@+id/Col6Label" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/row1"
+            android:onClick="rowClick"
+            android:clickable="true">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:text="Normal"
+                android:id="@+id/normButton" />
+
+
+
+            <TextView
+                android:width="50dp"
+                android:height="20dp"
+                android:text="R1C1"
+                android:gravity="center"
+                android:id="@+id/R1C1" />
+
+            <TextView
+                android:width="50dp"
+                android:height="20dp"
+                android:text="R1C2"
+                android:gravity="center"
+                android:id="@+id/R1C2" />
+
+            <TextView
+                android:width="50dp"
+                android:height="20dp"
+                android:text="R1C3"
+                android:gravity="center"
+                android:id="@+id/R1C3" />
+
+            <TextView
+                android:width="50dp"
+                android:height="20dp"
+                android:text="R1C4"
+                android:gravity="center"
+                android:id="@+id/R1C4" />
+
+            <TextView
+                android:width="50dp"
+                android:height="20dp"
+                android:text="R1C5"
+                android:gravity="center"
+                android:id="@+id/R1C5" />
+
+            <TextView
+                android:width="40dp"
+                android:height="20dp"
+                android:text="R1C6"
+                android:gravity="center"
+                android:id="@+id/R1C6" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:width="70dp"
+                android:height="20dp"
+                android:text="Fighting"
+                android:id="@+id/Fight" />
+
+            <TextView
+                android:width="50dp"
+                android:height="20dp"
+                android:text="R2C1"
+                android:gravity="center"
+                android:id="@+id/R2C1" />
+
+            <TextView
+                android:width="50dp"
+                android:height="20dp"
+                android:text="R2C2"
+                android:gravity="center"
+                android:id="@+id/R2C2" />
+
+            <TextView
+                android:width="50dp"
+                android:height="20dp"
+                android:text="R2C3"
+                android:gravity="center"
+                android:id="@+id/R2C3" />
+
+            <TextView
+                android:width="50dp"
+                android:height="20dp"
+                android:text="R2C4"
+                android:gravity="center"
+                android:id="@+id/R2C4" />
+
+            <TextView
+                android:width="50dp"
+                android:height="20dp"
+                android:text="R2C5"
+                android:gravity="center"
+                android:id="@+id/R2C5" />
+
+            <TextView
+                android:width="40dp"
+                android:height="20dp"
+                android:text="R2C6"
+                android:gravity="center"
+                android:id="@+id/R2C6" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:width="70dp"
+                android:height="20dp"
+                android:text="Flying"
+                android:id="@+id/Flying" />
+
+            <TextView
+                android:width="50dp"
+                android:height="20dp"
+                android:text="R3C1"
+                android:gravity="center"
+                android:id="@+id/R3C1" />
+
+            <TextView
+                android:width="50dp"
+                android:height="20dp"
+                android:text="R3C2"
+                android:gravity="center"
+                android:id="@+id/R3C2" />
+
+            <TextView
+                android:width="50dp"
+                android:height="20dp"
+                android:text="R3C3"
+                android:gravity="center"
+                android:id="@+id/R3C3" />
+
+            <TextView
+                android:width="50dp"
+                android:height="20dp"
+                android:text="R3C4"
+                android:gravity="center"
+                android:id="@+id/R3C4" />
+
+            <TextView
+                android:width="50dp"
+                android:height="20dp"
+                android:text="R3C5"
+                android:gravity="center"
+                android:id="@+id/R3C5" />
+
+            <TextView
+                android:width="40dp"
+                android:height="20dp"
+                android:text="R3C6"
+                android:gravity="center"
+                android:id="@+id/R3C6" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:width="70dp"
+                android:height="20dp"
+                android:text="Poison"
+                android:id="@+id/Poison" />
+
+            <TextView
+                android:width="50dp"
+                android:height="20dp"
+                android:text="R4C1"
+                android:gravity="center"
+                android:id="@+id/R4C1" />
+
+            <TextView
+                android:width="50dp"
+                android:height="20dp"
+                android:text="R4C2"
+                android:gravity="center"
+                android:id="@+id/R4C2" />
+
+            <TextView
+                android:width="50dp"
+                android:height="20dp"
+                android:text="R4C3"
+                android:gravity="center"
+                android:id="@+id/R4C3" />
+
+            <TextView
+                android:width="50dp"
+                android:height="20dp"
+                android:text="R4C4"
+                android:gravity="center"
+                android:id="@+id/R4C4" />
+
+            <TextView
+                android:width="50dp"
+                android:height="20dp"
+                android:text="R4C5"
+                android:gravity="center"
+                android:id="@+id/R4C5" />
+
+            <TextView
+                android:width="40dp"
+                android:height="20dp"
+                android:text="R4C6"
+                android:gravity="center"
+                android:id="@+id/R4C6" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:width="70dp"
+                android:height="20dp"
+                android:text="Ground"
+                android:id="@+id/Ground" />
+
+            <TextView
+                android:width="50dp"
+                android:height="20dp"
+                android:text="R5C1"
+                android:gravity="center"
+                android:id="@+id/R5C1" />
+
+            <TextView
+                android:width="50dp"
+                android:height="20dp"
+                android:text="R5C2"
+                android:gravity="center"
+                android:id="@+id/R5C2" />
+
+            <TextView
+                android:width="50dp"
+                android:height="20dp"
+                android:text="R5C3"
+                android:gravity="center"
+                android:id="@+id/R5C3" />
+
+            <TextView
+                android:width="50dp"
+                android:height="20dp"
+                android:text="R5C4"
+                android:gravity="center"
+                android:id="@+id/R5C4" />
+
+            <TextView
+                android:width="50dp"
+                android:height="20dp"
+                android:text="R5C5"
+                android:gravity="center"
+                android:id="@+id/R5C5" />
+
+            <TextView
+                android:width="40dp"
+                android:height="20dp"
+                android:text="R5C6"
+                android:gravity="center"
+                android:id="@+id/R5C6" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:width="70dp"
+                android:height="20dp"
+                android:text="Rock"
+                android:id="@+id/Rock" />
+
+            <TextView
+                android:width="50dp"
+                android:height="20dp"
+                android:text="R6C1"
+                android:gravity="center"
+                android:id="@+id/R6C1" />
+
+            <TextView
+                android:width="50dp"
+                android:height="20dp"
+                android:text="R6C2"
+                android:gravity="center"
+                android:id="@+id/R6C2" />
+
+            <TextView
+                android:width="50dp"
+                android:height="20dp"
+                android:text="R6C3"
+                android:gravity="center"
+                android:id="@+id/R6C3" />
+
+            <TextView
+                android:width="50dp"
+                android:height="20dp"
+                android:text="R6C4"
+                android:gravity="center"
+                android:id="@+id/R6C4" />
+
+            <TextView
+                android:width="50dp"
+                android:height="20dp"
+                android:text="R6C5"
+                android:gravity="center"
+                android:id="@+id/R6C5" />
+
+            <TextView
+                android:width="40dp"
+                android:height="20dp"
+                android:text="R6C6"
+                android:gravity="center"
+                android:id="@+id/R6C6" />
+        </TableRow>
+
+    </TableLayout>
+</RelativeLayout>
